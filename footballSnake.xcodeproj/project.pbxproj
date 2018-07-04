@@ -9,19 +9,21 @@
 /* Begin PBXBuildFile section */
 		BF54FAA720EA5700003399F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF54FAA620EA5700003399F8 /* AppDelegate.swift */; };
 		BF54FAA920EA5700003399F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF54FAA820EA5700003399F8 /* ViewController.swift */; };
-		BF54FAAC20EA5700003399F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF54FAAA20EA5700003399F8 /* Main.storyboard */; };
 		BF54FAAE20EA5701003399F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF54FAAD20EA5701003399F8 /* Assets.xcassets */; };
-		BF54FAB120EA5701003399F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF54FAAF20EA5701003399F8 /* LaunchScreen.storyboard */; };
+		BF54FAB920EA5748003399F8 /* StakeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF54FAB820EA5748003399F8 /* StakeView.swift */; };
+		BF54FABD20EA5F96003399F8 /* SnakeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF54FABC20EA5F96003399F8 /* SnakeNode.swift */; };
+		BF54FABF20EA5FB2003399F8 /* SnakeBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF54FABE20EA5FB2003399F8 /* SnakeBody.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BF54FAA320EA5700003399F8 /* footballSnake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = footballSnake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF54FAA620EA5700003399F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF54FAA820EA5700003399F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BF54FAAB20EA5700003399F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF54FAAD20EA5701003399F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BF54FAB020EA5701003399F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF54FAB220EA5701003399F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF54FAB820EA5748003399F8 /* StakeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StakeView.swift; sourceTree = "<group>"; };
+		BF54FABC20EA5F96003399F8 /* SnakeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnakeNode.swift; sourceTree = "<group>"; };
+		BF54FABE20EA5FB2003399F8 /* SnakeBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnakeBody.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +56,13 @@
 		BF54FAA520EA5700003399F8 /* footballSnake */ = {
 			isa = PBXGroup;
 			children = (
+				BF54FAAD20EA5701003399F8 /* Assets.xcassets */,
+				BF54FAB220EA5701003399F8 /* Info.plist */,
 				BF54FAA620EA5700003399F8 /* AppDelegate.swift */,
 				BF54FAA820EA5700003399F8 /* ViewController.swift */,
-				BF54FAAA20EA5700003399F8 /* Main.storyboard */,
-				BF54FAAD20EA5701003399F8 /* Assets.xcassets */,
-				BF54FAAF20EA5701003399F8 /* LaunchScreen.storyboard */,
-				BF54FAB220EA5701003399F8 /* Info.plist */,
+				BF54FAB820EA5748003399F8 /* StakeView.swift */,
+				BF54FABC20EA5F96003399F8 /* SnakeNode.swift */,
+				BF54FABE20EA5FB2003399F8 /* SnakeBody.swift */,
 			);
 			path = footballSnake;
 			sourceTree = "<group>";
@@ -122,9 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF54FAB120EA5701003399F8 /* LaunchScreen.storyboard in Resources */,
 				BF54FAAE20EA5701003399F8 /* Assets.xcassets in Resources */,
-				BF54FAAC20EA5700003399F8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,30 +137,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF54FAA920EA5700003399F8 /* ViewController.swift in Sources */,
+				BF54FABF20EA5FB2003399F8 /* SnakeBody.swift in Sources */,
 				BF54FAA720EA5700003399F8 /* AppDelegate.swift in Sources */,
+				BF54FABD20EA5F96003399F8 /* SnakeNode.swift in Sources */,
+				BF54FAB920EA5748003399F8 /* StakeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		BF54FAAA20EA5700003399F8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BF54FAAB20EA5700003399F8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		BF54FAAF20EA5701003399F8 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BF54FAB020EA5701003399F8 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BF54FAB320EA5701003399F8 /* Debug */ = {
@@ -280,9 +265,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EYQQ8RJ7YE;
 				INFOPLIST_FILE = footballSnake/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -290,7 +277,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "-91414379-qq.com.footballSnake";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -298,9 +285,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EYQQ8RJ7YE;
 				INFOPLIST_FILE = footballSnake/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +297,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "-91414379-qq.com.footballSnake";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
