@@ -53,6 +53,11 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+
+    }
+    
     
     func prepareFootballs() {
         score = 0

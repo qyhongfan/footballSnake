@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF198D1A20F1D7AE00F58806 /* jpush-ios-2.1.9.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF198D1920F1D7AE00F58806 /* jpush-ios-2.1.9.a */; };
+		BF198D1E20F1E10C00F58806 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF198D1D20F1E10C00F58806 /* CFNetwork.framework */; };
+		BF198D2020F1E11600F58806 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF198D1F20F1E11500F58806 /* CoreFoundation.framework */; };
+		BF198D2220F1E12100F58806 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF198D2120F1E12100F58806 /* CoreTelephony.framework */; };
+		BF198D2420F1E12B00F58806 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF198D2320F1E12B00F58806 /* SystemConfiguration.framework */; };
+		BF198D2620F1E13400F58806 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF198D2520F1E13400F58806 /* CoreGraphics.framework */; };
+		BF198D2820F1E13F00F58806 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF198D2720F1E13F00F58806 /* Foundation.framework */; };
+		BF198D2A20F1E14900F58806 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF198D2920F1E14900F58806 /* UIKit.framework */; };
+		BF198D2C20F1E15200F58806 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF198D2B20F1E15200F58806 /* Security.framework */; };
+		BF198D2E20F1E16000F58806 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BF198D2D20F1E16000F58806 /* libz.tbd */; };
+		BF198D3020F1E16B00F58806 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF198D2F20F1E16A00F58806 /* AdSupport.framework */; };
+		BF198D3220F1E18500F58806 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF198D3120F1E18500F58806 /* UserNotifications.framework */; };
+		BF198D3420F1E19400F58806 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BF198D3320F1E19400F58806 /* libresolv.tbd */; };
 		BF54FAA720EA5700003399F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF54FAA620EA5700003399F8 /* AppDelegate.swift */; };
 		BF54FAA920EA5700003399F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF54FAA820EA5700003399F8 /* ViewController.swift */; };
 		BF54FAAE20EA5701003399F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF54FAAD20EA5701003399F8 /* Assets.xcassets */; };
@@ -16,6 +29,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF198D1820F1D7AE00F58806 /* JPUSHService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
+		BF198D1920F1D7AE00F58806 /* jpush-ios-2.1.9.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-ios-2.1.9.a"; sourceTree = "<group>"; };
+		BF198D1B20F1DCCD00F58806 /* footbalSnake-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "footbalSnake-Bridging-Header.h"; sourceTree = "<group>"; };
+		BF198D1D20F1E10C00F58806 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		BF198D1F20F1E11500F58806 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		BF198D2120F1E12100F58806 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		BF198D2320F1E12B00F58806 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BF198D2520F1E13400F58806 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BF198D2720F1E13F00F58806 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BF198D2920F1E14900F58806 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BF198D2B20F1E15200F58806 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		BF198D2D20F1E16000F58806 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		BF198D2F20F1E16A00F58806 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		BF198D3120F1E18500F58806 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		BF198D3320F1E19400F58806 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		BF198D3520F1E32400F58806 /* footballSnake.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = footballSnake.entitlements; sourceTree = "<group>"; };
 		BF54FAA320EA5700003399F8 /* footballSnake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = footballSnake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF54FAA620EA5700003399F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF54FAA820EA5700003399F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -31,17 +60,60 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF198D3420F1E19400F58806 /* libresolv.tbd in Frameworks */,
+				BF198D3220F1E18500F58806 /* UserNotifications.framework in Frameworks */,
+				BF198D3020F1E16B00F58806 /* AdSupport.framework in Frameworks */,
+				BF198D2E20F1E16000F58806 /* libz.tbd in Frameworks */,
+				BF198D2C20F1E15200F58806 /* Security.framework in Frameworks */,
+				BF198D2A20F1E14900F58806 /* UIKit.framework in Frameworks */,
+				BF198D2820F1E13F00F58806 /* Foundation.framework in Frameworks */,
+				BF198D2620F1E13400F58806 /* CoreGraphics.framework in Frameworks */,
+				BF198D2420F1E12B00F58806 /* SystemConfiguration.framework in Frameworks */,
+				BF198D2220F1E12100F58806 /* CoreTelephony.framework in Frameworks */,
+				BF198D2020F1E11600F58806 /* CoreFoundation.framework in Frameworks */,
+				BF198D1E20F1E10C00F58806 /* CFNetwork.framework in Frameworks */,
+				BF198D1A20F1D7AE00F58806 /* jpush-ios-2.1.9.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF198D1720F1D7AE00F58806 /* JPush */ = {
+			isa = PBXGroup;
+			children = (
+				BF198D1820F1D7AE00F58806 /* JPUSHService.h */,
+				BF198D1920F1D7AE00F58806 /* jpush-ios-2.1.9.a */,
+			);
+			path = JPush;
+			sourceTree = "<group>";
+		};
+		BF198D1C20F1E10B00F58806 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF198D3320F1E19400F58806 /* libresolv.tbd */,
+				BF198D3120F1E18500F58806 /* UserNotifications.framework */,
+				BF198D2F20F1E16A00F58806 /* AdSupport.framework */,
+				BF198D2D20F1E16000F58806 /* libz.tbd */,
+				BF198D2B20F1E15200F58806 /* Security.framework */,
+				BF198D2920F1E14900F58806 /* UIKit.framework */,
+				BF198D2720F1E13F00F58806 /* Foundation.framework */,
+				BF198D2520F1E13400F58806 /* CoreGraphics.framework */,
+				BF198D2320F1E12B00F58806 /* SystemConfiguration.framework */,
+				BF198D2120F1E12100F58806 /* CoreTelephony.framework */,
+				BF198D1F20F1E11500F58806 /* CoreFoundation.framework */,
+				BF198D1D20F1E10C00F58806 /* CFNetwork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BF54FA9A20EA5700003399F8 = {
 			isa = PBXGroup;
 			children = (
+				BF198D1720F1D7AE00F58806 /* JPush */,
 				BF54FAA520EA5700003399F8 /* footballSnake */,
 				BF54FAA420EA5700003399F8 /* Products */,
+				BF198D1C20F1E10B00F58806 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +128,10 @@
 		BF54FAA520EA5700003399F8 /* footballSnake */ = {
 			isa = PBXGroup;
 			children = (
+				BF198D3520F1E32400F58806 /* footballSnake.entitlements */,
 				BF54FAAD20EA5701003399F8 /* Assets.xcassets */,
 				BF54FAB220EA5701003399F8 /* Info.plist */,
+				BF198D1B20F1DCCD00F58806 /* footbalSnake-Bridging-Header.h */,
 				BF54FAA620EA5700003399F8 /* AppDelegate.swift */,
 				BF54FAA820EA5700003399F8 /* ViewController.swift */,
 				BF54FAB820EA5748003399F8 /* StakeView.swift */,
@@ -99,6 +173,11 @@
 				TargetAttributes = {
 					BF54FAA220EA5700003399F8 = {
 						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -266,6 +345,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = footballSnake/footballSnake.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EYQQ8RJ7YE;
 				INFOPLIST_FILE = footballSnake/Info.plist;
@@ -274,8 +354,13 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JPush",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "-91414379-qq.com.footballSnake";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "footballSnake/footbalSnake-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -286,6 +371,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = footballSnake/footballSnake.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EYQQ8RJ7YE;
 				INFOPLIST_FILE = footballSnake/Info.plist;
@@ -294,8 +380,13 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JPush",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "-91414379-qq.com.footballSnake";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "footballSnake/footbalSnake-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
