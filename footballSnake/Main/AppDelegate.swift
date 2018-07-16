@@ -12,11 +12,13 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var rootVc: MainViewController?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         window = UIWindow(frame: UIScreen.main.bounds)
-        window?.rootViewController = ViewController()
+        rootVc = MainViewController()
+        window?.rootViewController = rootVc
         window?.makeKeyAndVisible()
         initJpush(launchOptions)
         return true
@@ -34,21 +36,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable: Any]) {
         JPUSHService.handleRemoteNotification(userInfo)
+        handleNotification(userInfo)
     }
     
     func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable: Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
         JPUSHService.handleRemoteNotification(userInfo)
+        handleNotification(userInfo)
         completionHandler(UIBackgroundFetchResult.newData)
+        
     }
     
     
     func initJpush(_ launchOptions: [AnyHashable: Any]?) {
         JPUSHService.register(forRemoteNotificationTypes: UIUserNotificationType.alert.rawValue | UIUserNotificationType.badge.rawValue | UIUserNotificationType.sound.rawValue, categories: nil)
-        var isProduction = false
-        #if DISTRIBUTION
-        isProduction = true
-        #endif
-        JPUSHService.setup(withOption: launchOptions, appKey: "92dab042b6f7bcdd46477899", channel: nil, apsForProduction: isProduction)
+        JPUSHService.setup(withOption: launchOptions, appKey: "92dab042b6f7bcdd46477899", channel: nil, apsForProduction: true)
         
     }
 
@@ -59,8 +60,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillEnterForeground(_ application: UIApplication) {
     }
     func applicationDidBecomeActive(_ application: UIApplication) {
+        UIApplication.shared.applicationIconBadgeNumber = 0
+        JPUSHService.setBadge(0)
+        rootVc?.requestAndShow()    // 后台进入前台 请求
     }
     func applicationWillTerminate(_ application: UIApplication) {
+    }
+    
+    func handleNotification(_ userInfo: [AnyHashable: Any]) {
+        // 解析通知中的 url 参数
+        if let urlString = userInfo["url"] as? String, urlString.count > 5 {
+            rootVc?.showWebView(urlString)
+        }
     }
 }
 

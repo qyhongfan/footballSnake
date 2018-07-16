@@ -21,11 +21,17 @@
 		BF198D3220F1E18500F58806 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF198D3120F1E18500F58806 /* UserNotifications.framework */; };
 		BF198D3420F1E19400F58806 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BF198D3320F1E19400F58806 /* libresolv.tbd */; };
 		BF54FAA720EA5700003399F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF54FAA620EA5700003399F8 /* AppDelegate.swift */; };
-		BF54FAA920EA5700003399F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF54FAA820EA5700003399F8 /* ViewController.swift */; };
+		BF54FAA920EA5700003399F8 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF54FAA820EA5700003399F8 /* FirstViewController.swift */; };
 		BF54FAAE20EA5701003399F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF54FAAD20EA5701003399F8 /* Assets.xcassets */; };
 		BF54FAB920EA5748003399F8 /* StakeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF54FAB820EA5748003399F8 /* StakeView.swift */; };
 		BF54FABD20EA5F96003399F8 /* SnakeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF54FABC20EA5F96003399F8 /* SnakeNode.swift */; };
 		BF54FABF20EA5FB2003399F8 /* SnakeBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF54FABE20EA5FB2003399F8 /* SnakeBody.swift */; };
+		BFAF2E7220FCB6F40030FB93 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAF2E7120FCB6F40030FB93 /* MainViewController.swift */; };
+		BFAF2E7C20FCC0EC0030FB93 /* NoticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAF2E7B20FCC0EC0030FB93 /* NoticeView.swift */; };
+		BFAF2E7E20FCC10A0030FB93 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAF2E7D20FCC1090030FB93 /* SecondViewController.swift */; };
+		BFAF2E8020FCC14E0030FB93 /* viewConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAF2E7F20FCC14E0030FB93 /* viewConfig.swift */; };
+		BFAF2E8220FCC1850030FB93 /* SnakeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAF2E8120FCC1850030FB93 /* SnakeView.swift */; };
+		BFAF2E8420FCC1BA0030FB93 /* foodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAF2E8320FCC1B90030FB93 /* foodView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,12 +53,18 @@
 		BF198D3520F1E32400F58806 /* footballSnake.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = footballSnake.entitlements; sourceTree = "<group>"; };
 		BF54FAA320EA5700003399F8 /* footballSnake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = footballSnake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF54FAA620EA5700003399F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BF54FAA820EA5700003399F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF54FAA820EA5700003399F8 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		BF54FAAD20EA5701003399F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF54FAB220EA5701003399F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF54FAB820EA5748003399F8 /* StakeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StakeView.swift; sourceTree = "<group>"; };
 		BF54FABC20EA5F96003399F8 /* SnakeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnakeNode.swift; sourceTree = "<group>"; };
 		BF54FABE20EA5FB2003399F8 /* SnakeBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnakeBody.swift; sourceTree = "<group>"; };
+		BFAF2E7120FCB6F40030FB93 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		BFAF2E7B20FCC0EC0030FB93 /* NoticeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticeView.swift; sourceTree = "<group>"; };
+		BFAF2E7D20FCC1090030FB93 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		BFAF2E7F20FCC14E0030FB93 /* viewConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = viewConfig.swift; sourceTree = "<group>"; };
+		BFAF2E8120FCC1850030FB93 /* SnakeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnakeView.swift; sourceTree = "<group>"; };
+		BFAF2E8320FCC1B90030FB93 /* foodView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = foodView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,17 +140,55 @@
 		BF54FAA520EA5700003399F8 /* footballSnake */ = {
 			isa = PBXGroup;
 			children = (
+				BFAF2E7620FCBFDA0030FB93 /* Main */,
+				BFAF2E7320FCBF960030FB93 /* First */,
+				BFAF2E7420FCBFBC0030FB93 /* Second */,
+				BFAF2E7520FCBFC40030FB93 /* Third */,
 				BF198D3520F1E32400F58806 /* footballSnake.entitlements */,
 				BF54FAAD20EA5701003399F8 /* Assets.xcassets */,
 				BF54FAB220EA5701003399F8 /* Info.plist */,
-				BF198D1B20F1DCCD00F58806 /* footbalSnake-Bridging-Header.h */,
-				BF54FAA620EA5700003399F8 /* AppDelegate.swift */,
-				BF54FAA820EA5700003399F8 /* ViewController.swift */,
-				BF54FAB820EA5748003399F8 /* StakeView.swift */,
-				BF54FABC20EA5F96003399F8 /* SnakeNode.swift */,
-				BF54FABE20EA5FB2003399F8 /* SnakeBody.swift */,
 			);
 			path = footballSnake;
+			sourceTree = "<group>";
+		};
+		BFAF2E7320FCBF960030FB93 /* First */ = {
+			isa = PBXGroup;
+			children = (
+				BF54FAA820EA5700003399F8 /* FirstViewController.swift */,
+				BF54FAB820EA5748003399F8 /* StakeView.swift */,
+				BF54FABE20EA5FB2003399F8 /* SnakeBody.swift */,
+				BF54FABC20EA5F96003399F8 /* SnakeNode.swift */,
+			);
+			path = First;
+			sourceTree = "<group>";
+		};
+		BFAF2E7420FCBFBC0030FB93 /* Second */ = {
+			isa = PBXGroup;
+			children = (
+				BFAF2E8320FCC1B90030FB93 /* foodView.swift */,
+				BFAF2E7F20FCC14E0030FB93 /* viewConfig.swift */,
+				BFAF2E8120FCC1850030FB93 /* SnakeView.swift */,
+				BFAF2E7D20FCC1090030FB93 /* SecondViewController.swift */,
+			);
+			path = Second;
+			sourceTree = "<group>";
+		};
+		BFAF2E7520FCBFC40030FB93 /* Third */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+		BFAF2E7620FCBFDA0030FB93 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BFAF2E7B20FCC0EC0030FB93 /* NoticeView.swift */,
+				BF54FAA620EA5700003399F8 /* AppDelegate.swift */,
+				BFAF2E7120FCB6F40030FB93 /* MainViewController.swift */,
+				BF198D1B20F1DCCD00F58806 /* footbalSnake-Bridging-Header.h */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,10 +265,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF54FAA920EA5700003399F8 /* ViewController.swift in Sources */,
+				BFAF2E7E20FCC10A0030FB93 /* SecondViewController.swift in Sources */,
+				BF54FAA920EA5700003399F8 /* FirstViewController.swift in Sources */,
+				BFAF2E8020FCC14E0030FB93 /* viewConfig.swift in Sources */,
 				BF54FABF20EA5FB2003399F8 /* SnakeBody.swift in Sources */,
 				BF54FAA720EA5700003399F8 /* AppDelegate.swift in Sources */,
+				BFAF2E8420FCC1BA0030FB93 /* foodView.swift in Sources */,
+				BFAF2E8220FCC1850030FB93 /* SnakeView.swift in Sources */,
+				BFAF2E7220FCB6F40030FB93 /* MainViewController.swift in Sources */,
 				BF54FABD20EA5F96003399F8 /* SnakeNode.swift in Sources */,
+				BFAF2E7C20FCC0EC0030FB93 /* NoticeView.swift in Sources */,
 				BF54FAB920EA5748003399F8 /* StakeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,7 +416,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "-91414379-qq.com.footballSnake";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "footballSnake/footbalSnake-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "footballSnake/Main/footbalSnake-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -386,7 +442,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "-91414379-qq.com.footballSnake";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "footballSnake/footbalSnake-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "footballSnake/Main/footbalSnake-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
